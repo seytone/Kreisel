@@ -1,0 +1,132 @@
+#juguetes {
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+    /*background-color: rgba(0, 250, 250, 0.5);*/
+    margin: 0 auto;
+    position:relative;
+    top: 20px;
+    z-index: 999997;
+}
+#container {
+    width: 860px;
+    height: 410px;
+    margin:5px;
+    padding:15px;
+    top:5px;
+    z-index: 999998;
+    position:relative;
+    vertical-align: middle;
+    /*overflow-y: scroll;*/
+    border-radius: 15px; 
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+}
+#categories {
+    top: 20px;
+    border: 1px solid #FFFFFF;
+    float: left;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 70px;
+    z-index: 999999;
+}
+#categories li {
+    list-style: none;
+    margin: 5px 10px;
+}
+#cat {
+
+}
+.pop {
+    display: none;
+}
+#juegos {
+    margin: 0 auto;
+}
+#juegos li {
+    list-style: none;
+    float: left;
+    margin: 2px;
+}
+.juguete {
+    width: 179px;
+    height: 179px;
+    border: 2px solid red;
+    opacity: 1;
+    overflow: hidden;
+    position: relative;
+}
+.juguete:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #67BC00;
+}
+.seleccionado {
+    width: 140px;
+    height: 140px;
+    border: 2px solid lime;
+    opacity: 0.7;
+}
+#imgJ {
+    width: 140px;
+    height: 140px;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+}
+#productos {
+    top: 20px;
+    right: 10px;
+    float: right;
+    position: relative;
+    width: 765px;
+    height: 95%;
+    padding: 10px;
+    z-index: 2147483647;
+    border-radius: 10px 10px 0px 0px;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#otro {
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#otro p {
+    color: #fff200 !important;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+#otro input {
+    padding: 5px;
+    width: 95%;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.categoria-icono { width: 60px; height: 40px; border-radius: 10px; background-position:center; background-repeat:no-repeat; opacity: 0.8; }
+.cat-ico-0 { background-image: url(../img/toys/cat0.jpg); background-color:#fff200;}
+.cat-ico-1 { background-image: url(../img/toys/cat1.jpg); background-color:#ff8b00;}
+.cat-ico-2 { background-image: url(../img/toys/cat2.jpg); background-color:#01edc8;}
+.cat-ico-3 { background-image: url(../img/toys/cat3.jpg); background-color:#67bc00;}
+.cat-ico-4 { background-image: url(../img/toys/cat4.jpg); background-color:#ec2327;}
+.cat-ico-5 { background-image: url(../img/toys/cat5.jpg); background-color:#00aeef;}
+.cat-ico-6 { background-image: url(../img/toys/cat6.jpg); background-color:#ec008c;}
+.cat-ico-7 { background-image: url(../img/toys/cat7.jpg); background-color:#bf23ec;}
+.cat-ico-8 { background-image: url(../img/toys/cat8.jpg); background-color:#0066ff;}
+
+.categoria-icono:hover {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #fff;
+}
+.categoria_selected {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #fff;
+}
+
+.producto-hover { display: none; position: absolute; width:140px; height:140px; background-color: rgba(0, 0, 0, 0.5); color:#FFF; text-align:center; }
+.producto-hover span { margin-top: 5%; padding:5px; text-transform:uppercase; font-size:medium; font-weight:bold; line-height:22px; color:#00cbd9; font-family: 'Arial'!important;}

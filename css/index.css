@@ -1,0 +1,114 @@
+html {
+	background: #e8f5eb url(../img/index/background_back.jpg) no-repeat;
+    background-color: #e8f5eb;
+}
+body {
+	margin: 0px;
+}
+#container {
+    width: 100%;
+    min-width: 960px;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#background {
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 0 5px 20px #000;
+}
+#background, #globo, #form, #next, #logo, #box, #nino, #nina, #girl, #boy, #arbol, #seleccion {
+    float: left;
+    position: absolute;
+}
+#form {
+    top: 460px;
+    left: 310px;
+}
+#form .in {
+    color: #c16320;
+}
+#form .in {
+    float: left;
+    margin: 10px;
+    font-size: small;
+}
+#form b {
+    color: red;
+}
+#form p {
+    text-align: center;
+    color: #5D9879;
+    font-size: small;
+    font-weight: bold;
+}
+#form .in input[type='text'] {
+    width: 170px;
+    padding: 1px 5px;
+    margin: 5px 0;
+    border: 1px solid #c16320;
+    border-radius: 10px;
+}
+#form .in select {
+    border-radius: 10px;
+    border: 1px solid #c16320;
+    margin: 5px 0;
+    width: 182px;
+}
+#next {
+    top: 600px;
+    left: 525px;
+    width: 184px;
+    height: 45px;
+    border: none;
+    background: url(../img/index/next.png);
+}
+#next:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+#logo {
+    top: 5px;
+    left: 50px;
+}
+#globo {
+    top: 20px;
+    left: 830px;
+}
+#box {
+    top: 420px;
+    left: 60px;
+    background: url(../img/index/box.png);
+}
+#nino {
+    top: 537px;
+    left: 73px;
+}
+#nina {
+    top: 527px;
+    left: 199px;
+}
+#boy {
+    top: 150px;
+    left: 135px;
+}
+#girl {
+    top: 145px;
+    left: 350px;
+}
+#nino:hover, #nina:hover, #boy:hover, #girl:hover {
+    cursor: pointer;
+}
+#arbol {
+    top: 7px;
+    left: 648px;
+}
+#seleccion {
+    top: 560px;
+    left: 110px;
+}
+.error {
+    color: red;
+    display: block;
+    position: relative;
+}

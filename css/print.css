@@ -1,0 +1,31 @@
+html			{ background-color: #ffd800 !important; }
+#marcador       { display: none !important; }
+
+#contenedor {
+    display: block !important;
+    background-image: url('../img/stage/cartaFinal.png'); width: 794px; height: 761px; bottom: -150px; z-index: 99999999999; position: absolute;
+}
+#send, #print {
+    display: block !important;
+    width: 115px;
+    height: 41px;
+    position: absolute;
+}
+#letter {
+    display: block !important;
+    width: 400px;
+    padding: 110px;
+    margin: 0 auto;
+}
+.carta {
+    display: block !important;
+    color: #000 !important;
+    font-size: 15px !important;
+}
+.ajaxSubmit {
+    display: none;
+}
+@font-face {
+    font-family: Comics;
+    src: url("../font/Comics.ttf") format("truetype");
+}
